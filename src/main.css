@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.reset {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 200px;
+  background: inherit;
+  border: 3px solid rgb(252, 160, 160);
+  cursor: pointer;
+  color: rgb(252, 160, 160);
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(450px + 15px);
+  gap: 5px;
+}
+
+.field {
+  display: block;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  background: inherit;
+  border-radius: 5px;
+  border-color: burlywood;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 40px;
+  justify-content: center;
+}
+
+.image {
+  width: 50px;
+}
